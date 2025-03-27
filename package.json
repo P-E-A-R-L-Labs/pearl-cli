@@ -1,0 +1,35 @@
+{
+  "name": "create-pearl-app",
+  "version": "1.0.0",
+  "description": "CLI to bootstrap Pearl AI chat applications",
+  "author": {
+    "name": "Pearl Labs"
+  },
+  "keywords": [
+    "cli",
+    "chat",
+    "ai",
+    "pearl labs",
+    "mcp"
+  ],
+  "bin": {
+    "create-pearl-app": "./dist/bin/create-pearl-app.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "dev": "ts-node src/bin/create-pearl-app.ts"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "ora": "^7.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

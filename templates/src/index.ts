@@ -1,4 +1,4 @@
-import { chatThread } from ".chatThread.ts";
+import { chatThread } from "./chatThread";
 
 function main() {
     chatThread().catch(console.error);

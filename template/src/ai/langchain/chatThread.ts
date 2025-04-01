@@ -1,12 +1,12 @@
 // chatThread.ts
 import * as readline from "readline-sync";
 import * as dotenv from "dotenv";
-import { initializeOpenaiModel, getOpenaiResponse } from "./services/openaiService";
-import { initializeDeepSeekModel, getDeepSeekResponse } from "./services/deepseekService";
-import { initializeClaudeModel, getClaudeResponse } from "./services/anthropicService";
-import { initializeQwenModel, getQwenResponse } from "./services/qwenservice";
-import { initializeLlamaModel, getLlamaResponse } from "./services/llamaService";
-import { initializeMistralModel, getMistralResponse } from "./services/mistralService";
+import { initializeOpenaiModel, getOpenaiResponse } from "../services/openaiService";
+import { initializeDeepSeekModel, getDeepSeekResponse } from "../services/deepseekService";
+import { initializeClaudeModel, getClaudeResponse } from "../services/anthropicService";
+import { initializeQwenModel, getQwenResponse } from "../services/qwenservice";
+import { initializeLlamaModel, getLlamaResponse } from "../services/llamaService";
+import { initializeMistralModel, getMistralResponse } from "../services/mistralService";
 import { HumanMessage, AIMessage, SystemMessage } from "@langchain/core/messages";
 
 dotenv.config();

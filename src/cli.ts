@@ -37,9 +37,7 @@ program
   });
 
 function copyTemplateFiles(targetDir: string) {
-    const pkgJsonPath = require.resolve('create-pearl-app/package.json');
-    const packageRoot = path.dirname(pkgJsonPath);
-    const templateDir = path.join(packageRoot, 'template');
+  const templateDir = path.join(__dirname, '../template');
   
   // Copy all files from template directory
   fs.copySync(templateDir, targetDir, {

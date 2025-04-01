@@ -1,6 +1,6 @@
 {
-    "name": "pearl-agentickit",
-    "version": "1.1.0",
+    "name": "pearl-agentkit",
+    "version": "1.0.0",
     "description": "P.E.A.R.L. AI Agents Backend Boilerplate",
     "main": "index.ts",
     "scripts": {

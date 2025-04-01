@@ -1,5 +1,12 @@
 # pearl-cli
 
+To create a new Project:
+```bash
+npx create-pearl-app@1.0.6 <project-name>
+
+Note: Project name is Mandatory!
+```
+
 To install dependencies:
 
 ```bash
